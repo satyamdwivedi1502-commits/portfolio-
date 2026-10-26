@@ -127,18 +127,24 @@ footer{border-top:1px solid var(--line);padding:1.8rem 0;color:var(--muted);text
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   .fill{transition:none}.caret{animation:none}.btn:hover{transform:none}
+
 }
-.photo{
+
+.photo {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #333;
+    transition: all 0.4s ease;
 }
 
 .photo:hover {
-    transform: scale(1.1);
+    border-radius: 10px;
+    transform: scale(1.05);
 }
+
+
 </style>
 </head>
 <body>
@@ -172,7 +178,8 @@ footer{border-top:1px solid var(--line);padding:1.8rem 0;color:var(--muted);text
         </div>
       </div>
       <aside class="card-id" aria-label="Quick details">
-         <img class="photo" src="https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-d3ec-81f7-a751-4ae418c0125e/raw?se=2026-10-26T11%3A41%3A15Z&sp=r&sv=2026-02-06&sr=b&scid=2d82ebb5-ffef-4e73-b540-eb1bf72041d0&skoid=e5e3659d-4463-4dbf-b2ce-ee32bc0a0a8d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-26T04%3A19%3A19Z&ske=2026-10-27T04%3A19%3A19Z&sks=b&skv=2026-02-06&sig=voqxzjt1kpDvETO4DdnKLgfTKOB14YrrzEwcKzzAwn8%3D"
+
+<img class="photo" src="profile.jpg" alt="Satyam Dwivedi profile photo">
 
           <dt>Studying</dt><dd>B.Tech (AKTU)</dd>
           <dt>Learning</dt><dd>Web design, data structures</dd>
